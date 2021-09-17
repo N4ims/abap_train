@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Functions for the Calculator</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZ06_CALCULATORTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ06_CALCULATOR</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z06_CALCULATOR</FUNCNAME>
+     <SHORT_TEXT>Calculator Functions</SHORT_TEXT>
+    </item>
+    <item>
+     <FUNCNAME>Z_06_ADD</FUNCNAME>
+     <SHORT_TEXT>Adding of 2 packed values</SHORT_TEXT>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
