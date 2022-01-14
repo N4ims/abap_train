@@ -1,0 +1,11 @@
+@EndUserText.label: 'For testing purposes only'
+@MappingRole: true
+define role Z2_TEST {
+    grant 
+        select
+            on
+                Z2_
+                    where
+                        (entity_element_1, entity_element_2) = aspect pfcg_auth(authorization_object, authorization_field_1, authorization_field_2, filter_field_1 = 'filter_value_1');
+                        
+}

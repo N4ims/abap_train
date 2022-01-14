@@ -1,0 +1,7 @@
+@EndUserText.label: 'role of a user'
+@MappingRole: true
+define role Z2_USER {
+    grant select on
+        Z2_SCUSTOM_FINAL
+    where (_Z2_SBOOK.Carrid)  =   aspect pfcg_auth( S_CARRID, CARRID, ACTVT = '03' );
+}
